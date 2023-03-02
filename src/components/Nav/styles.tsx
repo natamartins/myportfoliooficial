@@ -12,6 +12,7 @@ margin-bottom: 8rem;
 @media (max-width: 850px) {
     width: 100%;
    padding: 1rem 2rem;
+   margin-bottom: 2rem;
 }
 `
 export const Email = styled.div`

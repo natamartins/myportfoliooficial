@@ -2,7 +2,6 @@ import React from 'react'
 import * as S from './styles'
 import IMG from '../../img/o-email.png'
 import { Link } from 'react-router-dom'
-import MenuMobile from '../MenuMobile/Index'
 
 const Index = () => {
     return (

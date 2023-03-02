@@ -1,5 +1,6 @@
 import React from 'react'
 import * as S from './styles'
+import Typical from 'react-typical'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Nav from '../../components/Nav/Index'
@@ -61,8 +62,13 @@ const Home = () => {
                     <S.BoxInfo>
                         <S.TitleBoxInfo><span>Olá!</span> Sou </S.TitleBoxInfo>
                         <S.SubTitleBoxInfo>
-                            Software Developer
-                            UI/UX Designer
+                            <Typical
+                                loop={Infinity}
+                                steps={[
+                                    'Software Developer UI/UX Designer',
+                                    1000
+                                ]}
+                            />
                         </S.SubTitleBoxInfo>
                         <S.Sobre>
                             <S.LinkSocial href={L} target="_blank">Linkedin</S.LinkSocial>
@@ -75,7 +81,7 @@ const Home = () => {
                 <S.BoxCarosel>
                     <S.SubTitleCarosel>Projetos em Destaque</S.SubTitleCarosel>
                     <Carousel
-                        showThumbs={false}
+                        showThumbs={true}
                         autoPlay={true}
                         transitionTime={4}
                         infiniteLoop={true}

@@ -60,7 +60,7 @@ padding-bottom: 25px;
 }
 `
 export const Link = styled.a`
-padding: 2px 5px;
+padding: 10px;
 color: green;
 `
 

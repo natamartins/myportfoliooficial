@@ -11,7 +11,7 @@ margin-bottom: 2rem;
 }
 @media (max-width: 850px){
  width: 100%;
- padding: 0rem 2rem;
+ padding: 0rem 1rem;
 }
 `
 
@@ -56,6 +56,9 @@ background-color: #222;
 padding: 3rem;
 border-radius: 10px;
 margin-bottom: 1rem;
+@media (max-width: 850px){
+ padding: 1.5rem;
+}
 `
 
 export const Box = styled.ul`
