@@ -51,6 +51,21 @@ const Index = () => {
                         <S.TitleSkills>Storybook para documentar frontend melhor</S.TitleSkills>
                     </S.Box>
                 </S.BoxSkills>
+                <S.BoxSkills>
+                    <S.TitleSkil>Experience</S.TitleSkil>
+                    <S.BoxExp>
+                        <S.TitleOfExperience>Desenvolvedor Front end JR</S.TitleOfExperience>
+                        <S.NameOFCompany>Pingback</S.NameOFCompany>
+                        <S.Date>Jul 2022 - Nov 2022 · 5 mos</S.Date>
+                        <S.Location>Belo Horizonte, Minas Gerais, Brazil</S.Location>
+                        <S.TitleSkills>Tive a oportunidade de ganhar uma ótima experiência
+                            individual e com time, trabalhei usando HTML, SASS, JavaScript
+                            React, Cypress, jest e realizei tarefas .
+                            Ganhei ótimos conhecimentos.
+                        </S.TitleSkills>
+                        <S.TitleSkills>Skills: SASS · HTML5 · Git · GitHub · JavaScript · React.jsSkills</S.TitleSkills>
+                    </S.BoxExp>
+                </S.BoxSkills>
             </S.Container>
             <Footer />
         </>

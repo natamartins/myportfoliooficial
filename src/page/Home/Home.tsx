@@ -4,6 +4,10 @@ import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Nav from '../../components/Nav/Index'
 import Footer from '../../components/Footer/Index'
+// link of social midia
+const L = 'https://www.linkedin.com/in/nat%C3%A3martins/'
+const G = 'https://www.instagram.com/nata.devjr/?theme=dark '
+const I = 'https://github.com/natamartins'
 // 
 import IMG from '../../img/myPhoto.svg'
 import IMG01 from '../../img/image1.jpg'
@@ -61,7 +65,9 @@ const Home = () => {
                             UI/UX Designer
                         </S.SubTitleBoxInfo>
                         <S.Sobre>
-                            <Link to='/about'>Sobre</Link>
+                            <S.LinkSocial href={L} target="_blank">Linkedin</S.LinkSocial>
+                            <S.LinkSocial href={G} target="_blank">Instagram</S.LinkSocial>
+                            <S.LinkSocial href={I} target="_blank">Github</S.LinkSocial>
                         </S.Sobre>
                     </S.BoxInfo>
                     <S.Img src={IMG} />

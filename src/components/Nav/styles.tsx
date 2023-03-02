@@ -2,14 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.nav`
 display: flex;
+width: 80%;
 align-items: center;
-width: 1000px;
-margin: auto;
 justify-content: space-between;
+margin: auto;
 padding: 1rem;
 border-bottom: 3px solid #D9D9D9;
-margin-bottom: 9rem;
-
+margin-bottom: 8rem;
+@media (max-width: 850px) {
+    width: 100%;
+   padding: 1rem 2rem;
+}
 `
 export const Email = styled.div`
 display: flex;
@@ -29,12 +32,18 @@ font-weight: 600;
 export const Social = styled.div`
 display: flex;
 gap: 15px;
+z-index: 999;
 `
-export const LinkSocial = styled.a`
-font-weight: 600;
-z-index: 10;
+export const Sobre = styled.button`
+padding: 5px 20px;
+border: none;
+background-color: #FF1F00;
+cursor: pointer;
+animation: ease-in-out;
+a {
+    color: #fff;
+}
 :hover {
-    color: #999;
-    animation: ease-in-out;
+    background-color: #999;
 }
 `

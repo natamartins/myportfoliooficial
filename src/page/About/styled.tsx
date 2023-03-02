@@ -1,9 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.aside`
-width: 900px;
+width: 80%;
 margin: auto;
+padding: 0rem 10rem;
 margin-bottom: 2rem;
+@media (max-width: 1060px){
+ width: 90%;
+ padding: 0rem 5rem;
+}
+@media (max-width: 850px){
+ width: 100%;
+ padding: 0rem 2rem;
+}
 `
 
 export const BoxInfo = styled.div`
@@ -11,6 +20,11 @@ display: flex;
 gap: 3rem;
 align-items: center;
 margin-bottom: 2rem;
+@media (max-width: 850px){
+gap: 1rem;
+flex-direction: column;
+text-align: center;
+}
 `
 
 export const BoxInfoMe = styled.div`
@@ -48,10 +62,37 @@ export const Box = styled.ul`
 display: flex;
 flex-wrap: wrap;
 gap: 3rem;
+
+`
+export const BoxExp = styled.ul`
+display: flex;
+flex-direction: column;
 `
 
 export const TitleSkills = styled.li`
 padding-left: 5px;
 border-left: 4px solid rgb(1, 255, 42, 100%);
 border-radius: 2px;
+margin-bottom: 5px;
+
+`
+export const TitleOfExperience = styled.h3`
+color: #fff;
+font-size: 1rem;
+margin-bottom: 10px;
+`
+
+export const NameOFCompany = styled.p`
+color: #969696;
+margin-bottom: 5px;
+`
+
+export const Date = styled.p`
+color: #969696;
+
+`
+
+export const Location = styled.p`
+color: #969696;
+margin-bottom: 15px;
 `
