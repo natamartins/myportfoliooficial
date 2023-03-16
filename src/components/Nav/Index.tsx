@@ -6,13 +6,9 @@ import { Link } from 'react-router-dom'
 const Index = () => {
     return (
         <S.Container>
-            <S.Email>
-                <S.Img src={IMG} />
-                <S.TitleEmail href='mailto:natacodedev@gmail.com' target="_blank">Email</S.TitleEmail>
-            </S.Email>
+            <S.Title>NT</S.Title>
             <S.Social>
-                <S.TitleEmail><Link to='/'>Home</Link></S.TitleEmail>
-                <S.Sobre><Link to='/about'>Sobre</Link></S.Sobre>
+                <S.TitleEmail href='#projects'>Projetos</S.TitleEmail>
             </S.Social>
         </S.Container>
     )

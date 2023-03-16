@@ -10,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
     outline: none;
 }
 }
+
 body{
   background-color: #fffdfd;
   font-family: 'IBM Plex Mono', monospace;
